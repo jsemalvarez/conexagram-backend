@@ -1,0 +1,11 @@
+
+
+# dependencias
+/node_modules
+
+
+# variables de entorno
+.env.development
+.env.test
+.env.production
+
