@@ -5,6 +5,7 @@
 
 
 # variables de entorno
+.env
 .env.development
 .env.test
 .env.production
