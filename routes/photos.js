@@ -1,6 +1,6 @@
 /*
-    Event Routes
-    /api/photos
+    Photo Routes
+    host + /api/photos
 */
 const { Router } = require('express');
 

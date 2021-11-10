@@ -12,7 +12,7 @@ const app = express();
 dbConnection();
 
 // CORS
-const whiteList = ['http://localhost:4000', 'https://myapp.com']
+const whiteList = [ `http://localhost:${ process.env.PORT }` , process.env.URL_FRONT ] 
 const options = {
     origin: ( origin, cb ) => {
         /**

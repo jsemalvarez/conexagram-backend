@@ -14,6 +14,7 @@ const getPhotos = async( req, res = response ) => {
         const response = await new Photo().getPhotos()
        
         res.json({
+            ok: true,
             count: response.data.length, 
             results: response.data.splice( offset, limit )
         });

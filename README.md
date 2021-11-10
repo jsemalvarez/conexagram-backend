@@ -23,10 +23,15 @@ npm install
 - Crear `<user>` y `<password>` para db especificada en `.env`
 - Correr el server
 
+Correr en modo desarrollo (se requiere nodemon)
 ```bash
 npm run dev
 ```
 
+Correr en modo producción
+```bash
+npm start
+```
 ## Endpoints
 
 Estos son los endpoints disponibles:
